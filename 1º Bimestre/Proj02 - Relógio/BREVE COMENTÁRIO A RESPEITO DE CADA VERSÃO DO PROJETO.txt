@@ -1,0 +1,19 @@
+================= BREVE COMENTÁRIO A RESPEITO DE CADA VERSÃO DO PROJETO ====================
+
+	-> VERSÃO 1.0:
+	O programa em correto funcionamento executa a função de um relógio digital no formato 24 horas, programado para um display LCD com os dígitos centralizados na linha 1 do display
+
+	-> VERSÃO 2.0:
+	Nesta versão iniciou-se a implementação do sistema de alarme, no qual o mesmo é configurado por software, não permitindo a sua re-configuração no painel. Ao tentar fazê-lo piscar por um tempo também determinado por software, porém, o projeto apresentou erros de inicialização, e a melhor decisão a ser tomada seria abortá-lo, iniciando, assim, uma nova fase de desenvolvimento de outra versão.
+
+	-> VERSÃO 3.0:
+	Finalmente, as funções de configurar o alarme para piscar durante um tempo pré-definido (3 segundos) foi implementada com sucesso, porém ainda não permite nenhum tipo de interação com o usuário, necessitando de futuras atualizações e implementação do último recurso de I/O do projeto: o teclado.
+
+	-> VERSÃO 4.0:
+	O dispositivo do teclado foi corretamente cofigurado, sendo possível agora sua implementação no projeto final, no qual será viável a configuração do alarme pelo usuário.
+
+	-> VERSÃO 4.1:
+	Projeto criado para testar possíveis atualizações/melhorias na versão anterior (4.0). O projeto foi abortado, devido a falta de tempo para se pensar em grandes aprimoramentos, e ainda resta a última etapa do projeto principal: a integração dos dispositivos de I/O (teclado e display) e a implementação de funções que tornem viável a configuração do alarme pelo usuário, através do teclado.
+
+	-> VERSÃO 5.0 - ATUAL:
+	Depois de testados, os programas que controlam o teclado e o display devem ser integrados, de forma que o alarme seja programável pelo usuário. Na união dos dois programas, foi necessário muita atenção e paciência para a detecção dos erros advindos do código. Como não havia horário disponível para a utilização do laboratório de Sistemas Digitais III, a finalização do software teve de ser feita em casa, utilizando o modo de simulação e "escrevendo" nos pinos de entrada, para forçar a interrupção que aconteceria devido às teclas pressionadas.
